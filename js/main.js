@@ -117,13 +117,13 @@
                     element.className = `col-lg-2  mb-2 portfolio-item ${item.category}`;
                     element.innerHTML = `
                         <div class="position-relative overflow-hidden mb-1">
-                        <p>${item.description}</p>
-                            <img class="img-fluid rounded w-100" src="${item.image}" alt="">
-                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                                <a href="${item.image}" data-lightbox="portfolio">
-                                    <i class="far fa-eye text-white" style="font-size: 20px;"></i>
-                                </a>
-                            </div>
+                        <img class="img-fluid-folio rounded w-100" src="${item.image}" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="${item.image}" data-lightbox="portfolio">
+                        <i class="far fa-eye text-white" style="font-size: 20px;"></i>
+                        </a>
+                        </div>
+                        <p class="port-name">${item.description}</p>
                         </div>
                     `;
                     container.appendChild(element);

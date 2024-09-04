@@ -22,36 +22,36 @@
     {
         "category": "design",
         "image": "img/produksi.png",
-        "description": ""
+        "description": "web erp design (UI)"
     },
     {
         "category": "develop",
         "image": "img/crm.png",
-        "description": ""
+        "description": "web CRM"
     },
     {
         "category": "develop",
         "image": "img/kasir.png",
-        "description": ""
+        "description": "cashier web with sales report"
     },
     {
         "category": "develop",
         "image": "img/spk.png",
-        "description": ""
+        "description": "decision support system with SAW method"
     },
     {
         "category": "analist",
         "image": "img/spreadsheet.png",
-        "description": ""
+        "description": "data cleaning using google spreadsheets"
     },
     {
         "category": "analist",
         "image": "img/big.png",
-        "description": ""
+        "description": "knowledge search from data using big data"
     },
     {
         "category": "analist",
         "image": "img/looker.png",
-        "description": ""
+        "description": "data visualization dashboard using looker studio"
     }
 ]
