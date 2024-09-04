@@ -11121,6 +11121,14 @@ h6,
   border-radius: 60px;
 }
 
+.portfolio-item {
+  height: 200px;
+}
+
+.portfolio-item img {
+  max-height: 150px;
+}
+
 .portfolio-item .portfolio-btn {
   position: absolute;
   width: 0;
@@ -11176,4 +11184,10 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.skillset img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
 }

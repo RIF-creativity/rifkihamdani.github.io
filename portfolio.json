@@ -1,0 +1,57 @@
+[
+    {
+        "category": "design",
+        "image": "img/e-menu.png",
+        "description": "App Mobile Design"
+    },
+    {
+        "category": "design",
+        "image": "img/porpolio.png",
+        "description": "Web Portfolio Design"
+    },
+    {
+        "category": "design",
+        "image": "img/erp.png",
+        "description": "Web ERP design"
+    },
+    {
+        "category": "design",
+        "image": "img/e-comer.png",
+        "description": "Web E-commerce Design"
+    },
+    {
+        "category": "design",
+        "image": "img/produksi.png",
+        "description": ""
+    },
+    {
+        "category": "develop",
+        "image": "img/crm.png",
+        "description": ""
+    },
+    {
+        "category": "develop",
+        "image": "img/kasir.png",
+        "description": ""
+    },
+    {
+        "category": "develop",
+        "image": "img/spk.png",
+        "description": ""
+    },
+    {
+        "category": "analist",
+        "image": "img/spreadsheet.png",
+        "description": ""
+    },
+    {
+        "category": "analist",
+        "image": "img/big.png",
+        "description": ""
+    },
+    {
+        "category": "analist",
+        "image": "img/looker.png",
+        "description": ""
+    }
+]
