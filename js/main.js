@@ -117,7 +117,7 @@
                     element.className = `col-lg-2  mb-2 portfolio-item ${item.category}`;
                     element.innerHTML = `
                         <div class="position-relative overflow-hidden mb-1">
-                        <img class="img-fluid-folio rounded w-100" src="${item.image}" alt="">
+                        <img class="img-fluid-folio rounded w-100 portfolio-img-modal" src="${item.image}" alt="" data-desc="${item.description}" data-toggle="modal" data-target="#portfolioModal" style="cursor:pointer;">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         <a href="${item.image}" data-lightbox="portfolio">
                         <i class="far fa-eye text-white" style="font-size: 20px;"></i>
@@ -130,6 +130,14 @@
                 });
                 // Reinitialize Isotope after adding new items
                 portfolioIsotope.isotope('reloadItems').isotope();
+
+                // Modal event for portfolio images
+                document.querySelectorAll('.portfolio-img-modal').forEach(function (img) {
+                    img.addEventListener('click', function () {
+                        document.getElementById('portfolioModalImg').src = img.src;
+                        document.getElementById('portfolioModalDesc').textContent = img.getAttribute('data-desc');
+                    });
+                });
             })
             .catch(error => console.error('Error loading portfolio data:', error));
     });
